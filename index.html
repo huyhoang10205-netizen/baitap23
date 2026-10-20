@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trang chủ Bài tập 23 - Web có hiệu ứng JavaScript">
+  <title>Bài tập 23 | Trang chủ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">✦</span> BÀI TẬP 23</a>
+      <nav class="site-nav" aria-label="Điều hướng chính">
+        <a class="active" href="index.html" aria-current="page">Trang chủ</a>
+        <a href="bai22.html">Bài tập 22</a>
+        <a href="den-keo-quan.html">Đèn kéo quân</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero hero-home container">
+      <p class="eyebrow">LẬP TRÌNH WEB · JAVASCRIPT</p>
+      <h1>Bài tập 23<br><span class="accent">Web có hiệu ứng JavaScript</span></h1>
+      <p class="hero-lead">Website tổng hợp kết quả Bài tập 22 và bài thực hành đèn kéo quân 3D quay tự động bằng JavaScript.</p>
+      <div class="student-card" aria-label="Thông tin sinh viên">
+        <span><strong>Họ tên:</strong> <span data-student-name></span></span>
+        <span><strong>MSSV:</strong> <span data-student-id></span></span>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="den-keo-quan.html">Xem đèn kéo quân <span aria-hidden="true">→</span></a>
+        <a class="btn btn-secondary" href="bai22.html">Xem kết quả Bài 22</a>
+      </div>
+    </section>
+    <section class="container cards-section" aria-label="Các bài thực hành">
+      <h2>Danh sách bài thực hành</h2>
+      <div class="lesson-grid">
+        <article class="lesson-card">
+          <div class="lesson-visual lesson-visual--22"><span class="giant-index">22</span><span class="mini-stars">✦ ✧ ✦</span></div>
+          <div class="lesson-content">
+            <p class="lesson-kicker">BÀI TẬP 22</p>
+            <h3>Hình ảnh kết quả Bài 22</h3>
+            <p>Vị trí để chèn ảnh chụp kết quả của Bài tập 22 theo yêu cầu của giáo viên.</p>
+            <a class="text-link" href="bai22.html">Xem Bài 22 →</a>
+          </div>
+        </article>
+        <article class="lesson-card">
+          <div class="lesson-visual lesson-visual--23"><span class="ornament">🏮</span><span class="mini-stars">✧ ✦ ✧</span></div>
+          <div class="lesson-content">
+            <p class="lesson-kicker">BÀI TẬP 23</p>
+            <h3>Đèn kéo quân xoay 3D</h3>
+            <p>Đèn có 6 mặt ảnh, tự quay, dừng khi di chuột vào và quay tiếp khi rời chuột.</p>
+            <a class="text-link" href="den-keo-quan.html">Xem đèn kéo quân →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer container">Bài tập 23 · <span data-student-name></span> · MSSV: <span data-student-id></span></footer>
+</body>
+</html>
